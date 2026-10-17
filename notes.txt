@@ -3,4 +3,3 @@ string2main
 string22
 feature/a
 string3
-bed string
