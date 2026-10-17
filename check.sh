@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 
 NAME="$1"
 
@@ -12,6 +12,6 @@ if [ ! -e "$NAME" ]; then
 	exit 1
 fi
 
-wc -l notes.txt
+wc -l < "$NAME"
 
 
